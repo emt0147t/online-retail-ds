@@ -1,0 +1,29 @@
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw dataset
+data/raw/*.xlsx
+data/raw/*.xls
+
+# Generated database
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Generated processed artifacts
+data/processed/*.csv
+
+# Environment / secrets
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
